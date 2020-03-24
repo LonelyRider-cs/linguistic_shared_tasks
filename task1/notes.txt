@@ -1,0 +1,19 @@
+model -> complete_preprocess.low (50k steps, all languages in same file with language being the first & last element)
+  step 1000 -> acc: 35.02%
+
+  step 10000 -> acc: 97.19%
+  step 10000(dev data) -> 69.66%
+
+  step 20000 -> acc: 98.87%
+  step 20000(dev data) -> 71.08%
+
+  step 25000 -> acc: 99.23%
+
+  step 30000 -> acc: 99.25%
+  step 30000(dev data) -> acc: 70.45
+
+  step 40000 -> acc: 99.47%
+  step 40000(dev data) -> acc: 70.30%
+
+  step 50000 -> acc: 99.57%
+  step 50000(dev data) -> acc: 69.41%
